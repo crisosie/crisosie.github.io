@@ -82,6 +82,7 @@ ul.posts li {
   
 .index_container{
     position: relative;
+    display:inline-block;
 }
 
 .index_overlay{
