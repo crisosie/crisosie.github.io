@@ -61,4 +61,10 @@ ul.posts li {
     display: inline-block;
     width: 50%;
 }
+
+.about_image{
+    display:inline-block;
+    width: 20%;
+    height: 100px;
+}
   
