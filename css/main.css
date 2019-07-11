@@ -30,7 +30,7 @@ h2 {
     margin-bottom: 0px;
 }
 p {
-    font-size: 1.25em;
+    font-size: 1.2em;
     line-height: 1.2em;
     color: #333;
     text-align: justify;
@@ -61,7 +61,7 @@ ul.posts li {
 .about{
     display: inline-block;
     width: 45%;
-    margin: 1em;
+    margin-right: 1em;
     vertical-align: top;
 }
 
