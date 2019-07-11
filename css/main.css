@@ -75,14 +75,14 @@ ul.posts li {
 
 .index_image {
     display: inline-block;
-    width: 30%;
-    height: 20%;
-    margin: 1em;
+    width: 100%;
+    height: 100%;
   }
   
 .index_container{
     position: relative;
     display:inline-block;
+    max-width: 20%;
 }
 
 .index_overlay{
@@ -91,10 +91,10 @@ ul.posts li {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
+    height: 97%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: .3s ease;
     background-color: #008CBA;
 }
 
