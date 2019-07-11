@@ -1,10 +1,10 @@
 body {
     margin: 60px auto;
     width: 80%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Open Sans', 'Nunito', 'Sans-Serif';
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Open Sans', 'Nunito', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,11 +22,11 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Open Sans', 'Nunito', 'Sans-Serif';
 }
 h2 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Open Sans', 'Nunito', 'Sans-Serif';
     margin-bottom: 0px;
 }
 p {
