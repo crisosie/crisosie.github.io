@@ -64,7 +64,9 @@ ul.posts li {
 
 .about_image{
     display:inline-block;
-    width: 20%;
-    height: 100px;
+    max-width:20%;
+    max-height:100px;
+    width: auto;
+    height: auto;
 }
   
