@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
@@ -59,13 +59,15 @@ ul.posts li {
 
 .about{
     display: inline-block;
-    width: 50%;
+    width: 45%;
+    margin: 1em;
+    vertical-align: top;
 }
 
 .about_image{
     display:inline-block;
-    max-width:20%;
-    max-height:100px;
+    max-width:100%;
+    max-height:100%;
     width: auto;
     height: auto;
 }
