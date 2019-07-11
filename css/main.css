@@ -19,6 +19,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    color: #08b79d;
 }
 h1 {
     font-size: 3em;
@@ -35,6 +36,7 @@ p {
     color: #333;
     text-align: justify;
     text-justify: inter-word;
+    margin: 0em 0px 1em 0px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -95,7 +97,7 @@ ul.posts li {
     width: 100%;
     opacity: 0;
     transition: .3s ease;
-    background-color: #008CBA;
+    background-color: #08b79d;
 }
 
 .index_container:hover .index_overlay {
