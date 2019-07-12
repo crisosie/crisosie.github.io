@@ -2,6 +2,8 @@ body {
     margin: 60px auto;
     width: 80%;
     font-family: 'Nunito Sans';
+    /*background: #f9fbf8;
+    */
 }
 nav ul, footer ul {
     font-family: 'Nunito Sans';
