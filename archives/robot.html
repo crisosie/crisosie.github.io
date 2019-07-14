@@ -2,16 +2,22 @@
 layout: default
 title: Cristian Soler Sierra
 ---
+<script>
+	function alertsize(pixels){
+		pixels+=32;
+		document.getElementById('myiframe').style.height=pixels+"px";
+	}
+	</script>
 <div class="blurb">
 	<h1>Mobile Robotics</h1>
 	<div>
 		<h2>Navigation</h2>
-		<iframe width="720" height="480" src="https://www.youtube.com/embed/Vc0n3-StTzo" allowfullscreen></iframe>
+		<iframe width="720" height="480" id="myiframe" src="https://www.youtube.com/embed/Vc0n3-StTzo" allowfullscreen></iframe>
         <p> Simulate a mobile robot using Aria library. The robot is a state machine with three different states: edge follow, wander, avoid obstacles. </p>	</div>
 	</div
 	><div>
 		<h2>Mapping</h2>
-		<iframe width="720" height="480" src="https://www.youtube.com/embed/9DNmLM-Ws4Y" allowfullscreen></iframe>
+		<iframe width="720" height="480" id="myiframe" src="https://www.youtube.com/embed/9DNmLM-Ws4Y" allowfullscreen></iframe>
       	<p> Simulate a mobile robot using Aria library that will map an unknown environment. </p>
 	</div>	
 </div><!-- /.blurb -->
