@@ -100,7 +100,7 @@ ul.posts li {
     opacity: 0;
     transition: .3s ease;
     background-color: #08b79d;
-    background-image: linear-gradient(45deg, #08b79d, #50f0d8);
+    background-image: linear-gradient(45deg, #16d090, #50f0d8);
 }
 
 .index_container:hover .index_overlay {
@@ -108,7 +108,7 @@ ul.posts li {
 }
 
 .overlay_text {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
