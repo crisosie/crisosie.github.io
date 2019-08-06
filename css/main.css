@@ -157,5 +157,37 @@ iframe{
 
 .pbr{
     left:0px;
+    background: url("/multimedia/icons/thumbnails.png") 800 0;
+}
+
+.pbs{
+    left:0px;
+    top:1134px;
+    background: url("/multimedia/icons/thumbnails.png") 400 1134;
+}
+
+.dust{
+    left:0px;
+    top:756px;
+    background: url("/multimedia/icons/thumbnails.png") 0 756;
+}
+
+.ink{
+    left:0px;
+    background: url("/multimedia/icons/thumbnails.png") 400 0;
+}
+
+.flock{
+    left:0px;
+    background: url("/multimedia/icons/thumbnails.png") 0 1134;
+}
+
+.ecorruption{
+    left:0px;
     background: url("/multimedia/icons/thumbnails.png") 0 0;
+}
+
+.robot{
+    left:0px;
+    background: url("/multimedia/icons/thumbnails.png") 400 378;
 }
