@@ -148,3 +148,10 @@ iframe{
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
   }
+
+  .pbr{
+      left:0px;
+      width: 400px;
+      height: 378px;
+      background: url("/multimedia/icons/thumbnails.png") 0 0;
+  }
