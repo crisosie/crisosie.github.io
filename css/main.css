@@ -86,7 +86,8 @@ ul.posts li {
 .index_container{
     position: relative;
     display:inline-block;
-    max-width: 20%;
+    max-width: 400px;
+    margin-right: 20px;
 }
 
 .index_overlay{
