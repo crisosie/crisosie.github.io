@@ -149,10 +149,13 @@ iframe{
     transition: opacity 1s ease-in-out;
 }
 
-.pbr{
+.index_container a{
     display: inline-block;
-    left:0px;
     width: 400px;
     height: 378px;
+}
+
+.pbr{
+    left:0px;
     background: url("/multimedia/icons/thumbnails.png") 0 0;
 }
