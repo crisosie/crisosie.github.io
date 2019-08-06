@@ -97,7 +97,7 @@ ul.posts li {
     left: 0;
     right: 0;
     width: 400px;
-    height: 378px;
+    height: 400px;
     opacity: 0;
     transition: .3s ease;
     background-color: #08b79d;
@@ -153,7 +153,7 @@ iframe{
 .index_container a{
     display: inline-block;
     width: 400px;
-    height: 378px;
+    height: 400px;
 }
 
 .th_2019{
