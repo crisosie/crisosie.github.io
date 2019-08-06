@@ -157,23 +157,23 @@ iframe{
 
 .pbr{
     left:0px;
-    background: url("/multimedia/icons/thumbnails.png") 800 0;
+    background: url("/multimedia/icons/thumbnails.png") -800 0;
 }
 
 .dust{
     left:0px;
     top:756px;
-    background: url("/multimedia/icons/thumbnails.png") 0 756;
+    background: url("/multimedia/icons/thumbnails.png") 0 -756;
 }
 
 .ink{
     left:0px;
-    background: url("/multimedia/icons/thumbnails.png") 400 0;
+    background: url("/multimedia/icons/thumbnails.png") -400 0;
 }
 
 .flock{
     left:0px;
-    background: url("/multimedia/icons/thumbnails.png") 0 1134;
+    background: url("/multimedia/icons/thumbnails.png") 0 -1134;
 }
 
 .ecorruption{
@@ -184,10 +184,10 @@ iframe{
 .pbs{
     left:0px;
     top:1134px;
-    background: url("/multimedia/icons/thumbnails.png") 400 1134;
+    background: url("/multimedia/icons/thumbnails.png") -400 -1134;
 }
 
 .robot{
     left:0px;
-    background: url("/multimedia/icons/thumbnails.png") 400 378;
+    background: url("/multimedia/icons/thumbnails.png") -400 -378;
 }
