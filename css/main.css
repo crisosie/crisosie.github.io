@@ -95,8 +95,8 @@ ul.posts li {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 99%;
-    width: 100%;
+    width: 400px;
+    height: 378px;
     opacity: 0;
     transition: .3s ease;
     background-color: #08b79d;
@@ -160,12 +160,6 @@ iframe{
     background: url("/multimedia/icons/thumbnails.png") 800 0;
 }
 
-.pbs{
-    left:0px;
-    top:1134px;
-    background: url("/multimedia/icons/thumbnails.png") 400 1134;
-}
-
 .dust{
     left:0px;
     top:756px;
@@ -185,6 +179,12 @@ iframe{
 .ecorruption{
     left:0px;
     background: url("/multimedia/icons/thumbnails.png") 0 0;
+}
+
+.pbs{
+    left:0px;
+    top:1134px;
+    background: url("/multimedia/icons/thumbnails.png") 400 1134;
 }
 
 .robot{
