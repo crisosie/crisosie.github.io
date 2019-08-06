@@ -156,39 +156,39 @@ iframe{
     height: 378px;
 }
 
-.pbr{
+.th_pbr{
     left:0px;
     background: url("/multimedia/icons/thumbnails.png") -800px 0px;
 }
 
-.dust{
+.th_dust{
     left:0px;
     top:756px;
     background: url("/multimedia/icons/thumbnails.png") 0px -756px;
 }
 
-.ink{
+.th_ink{
     left:0px;
     background: url("/multimedia/icons/thumbnails.png") -400px 0px;
 }
 
-.flock{
+.th_flock{
     left:0px;
     background: url("/multimedia/icons/thumbnails.png") 0px -1134px;
 }
 
-.ecorruption{
+.th_ecorruption{
     left:0px;
     background: url("/multimedia/icons/thumbnails.png") 0px 0px;
 }
 
-.pbs{
+.th_pbs{
     left:0px;
     top:1134px;
     background: url("/multimedia/icons/thumbnails.png") -400px -1134px;
 }
 
-.robot{
+.th_robot{
     left:0px;
     background: url("/multimedia/icons/thumbnails.png") -400px -378px;
 }
