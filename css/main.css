@@ -156,6 +156,21 @@ iframe{
     height: 378px;
 }
 
+.th_2019{
+    left:0px;
+    background: url("/multimedia/icons/thumbnails.png") -378px -800px;
+}
+
+.th_2018{
+    left:0px;
+    background: url("/multimedia/icons/thumbnails.png") 0px -756px;
+}
+
+.th_2017{
+    left:0px;
+    background: url("/multimedia/icons/thumbnails.png") 0px -378px;
+}
+
 .th_pbr{
     left:0px;
     background: url("/multimedia/icons/thumbnails.png") -800px 0px;
