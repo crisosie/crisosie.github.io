@@ -88,6 +88,9 @@ ul.posts li {
     display:inline-block;
     max-width: 400px;
     padding: 0px 20px 20px 0px;
+    border-radius: 0px;
+    -webkit-transition: border-radius 0.4s; /* For Safari 3.1 to 6.0 */
+     transition: border-radius 0.4s;
 }
 
 .index_overlay{
@@ -103,13 +106,13 @@ ul.posts li {
     background-color: #08b79d;
     background-image: linear-gradient(45deg, #16d090, #50f0d8);
     border-radius: 0px;
-    -webkit-transition: border-radius 2s; /* For Safari 3.1 to 6.0 */
-     transition: border-radius 2s;
+    -webkit-transition: border-radius 0.4s; /* For Safari 3.1 to 6.0 */
+     transition: border-radius 0.4s;
 }
 
 .index_container:hover .index_overlay {
     opacity: 1;
-    border-radius: 25px;
+    border-radius: 250px;
 }
 
 .overlay_text {
