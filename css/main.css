@@ -102,10 +102,14 @@ ul.posts li {
     transition: .3s ease;
     background-color: #08b79d;
     background-image: linear-gradient(45deg, #16d090, #50f0d8);
+    border-radius: 0px;
+    -webkit-transition: border-radius 2s; /* For Safari 3.1 to 6.0 */
+     transition: border-radius 2s;
 }
 
 .index_container:hover .index_overlay {
     opacity: 1;
+    border-radius: 25px;
 }
 
 .overlay_text {
@@ -173,7 +177,7 @@ iframe{
 }
 
 .th_dust{
-    background: url("/multimedia/icons/thumbnails.png") -400px -800px;
+    background: url("/multimedia/icons/thumbnails.png") 0px -800px;
 }
 
 .th_ink{
