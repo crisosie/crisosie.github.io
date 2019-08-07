@@ -5,6 +5,13 @@ body {
     /*background: #f9fbf8;
     */
 }
+.main_body{
+    width:90%;
+}
+.decoration{
+    width:10%;
+    background: #2d750983;
+}
 nav ul, footer ul {
     font-family: 'Nunito Sans';
     padding: 0px;
@@ -88,9 +95,6 @@ ul.posts li {
     display:inline-block;
     max-width: 400px;
     padding: 0px 20px 20px 0px;
-    border-radius: 0px;
-    -webkit-transition: border-radius 0.4s; /* For Safari 3.1 to 6.0 */
-     transition: border-radius 0.4s;
 }
 
 .index_overlay{
@@ -161,6 +165,13 @@ iframe{
     display: inline-block;
     width: 400px;
     height: 400px;
+    border-radius: 0px;
+    -webkit-transition: border-radius 0.4s; /* For Safari 3.1 to 6.0 */
+     transition: border-radius 0.4s;
+}
+
+.index_container a:hover{
+    border-radius: 250px;
 }
 
 .th_2019{
