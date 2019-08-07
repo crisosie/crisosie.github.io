@@ -214,10 +214,8 @@ iframe{
     background: url("/multimedia/icons/thumbnails.png") -400px -400px;
 }
 
-.contact_icon{
-    display:inline-block;
-}
-
 .contact_icon img{
     width: 32px;
+    float:left;
+    padding-right: 20px;
 }
