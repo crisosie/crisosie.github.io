@@ -217,3 +217,7 @@ iframe{
 .contact_icon{
     display:inline-block;
 }
+
+.contact_icon img{
+    width: 32px;
+}
