@@ -42,7 +42,7 @@ a:hover {
      display:block;
 }
 a:hover > #underline{
-    color: #08b79d;
+    background-color: #08b79d;
     width: 100%;
 }
 
