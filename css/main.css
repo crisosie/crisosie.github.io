@@ -236,12 +236,12 @@ iframe{
     padding-right: 20px;
 }
 
-#id{
+#cv{
     background-color: #08b79d;
     border-radius: 5px;
 }
 
-#id:hover{
+#cv:hover{
     color: #999;
     background-color: #50f0d8; 
 }
