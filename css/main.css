@@ -36,7 +36,7 @@ a:hover {
 }
 #underline{
     width: 0px;
-    height:4px;
+    height:5px;
     -webkit-transition: width 0.4s; /* For Safari 3.1 to 6.0 */
      transition: width 0.4s;
      display:block;
