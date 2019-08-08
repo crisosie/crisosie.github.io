@@ -241,8 +241,8 @@ iframe{
     background-color: #08b79d;
     border-radius: 5px;
     padding: 4px 20px 4px 20px;
-    -webkit-transition: background-color 0.2s; /* For Safari 3.1 to 6.0 */
-    transition: background-color 0.2s;
+    -webkit-transition: background-color 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.4s;
 }
 
 #cv:hover{
