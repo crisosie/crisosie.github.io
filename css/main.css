@@ -41,10 +41,9 @@ a:hover {
      transition: width 0.4s;
      display:block;
 }
-a:hover + #underline{
+a:hover > #underline{
     color: #08b79d;
     width: 100%;
-    height:4px;
 }
 
 h1 {
