@@ -29,8 +29,14 @@ a {
 a:hover {
     color: #08b79d;
 }
+#underline{
+    width: 0px;
+    -webkit-transition: width 0.4s; /* For Safari 3.1 to 6.0 */
+     transition: width 0.4s;
+}
 a:hover + #underline{
-    color:#333;
+    color: #08b79d;
+    width: 100%;
 }
 
 h1 {
