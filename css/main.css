@@ -27,7 +27,6 @@ nav ul li div{
 }
 
 a {
-    text-decoration: none;
     color: #999;
     display:inline-block;
 }
@@ -234,4 +233,14 @@ iframe{
     width: 32px;
     float:left;
     padding-right: 20px;
+}
+
+#id{
+    background-color: #08b79d;
+    border-radius: 5px;
+}
+
+#id:hover{
+    color: #999;
+    background-color: #50f0d8; 
 }
