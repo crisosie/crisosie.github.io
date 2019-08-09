@@ -256,8 +256,9 @@ iframe{
 }
 
 .img_col{
-    float:left;
-    width:100%
+    float: right; 
+    margin: 0px 0px 15px 15px;
+    width: 25%
 }
 
 .th_slide_img {
