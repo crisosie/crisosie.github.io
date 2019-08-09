@@ -261,6 +261,12 @@ iframe{
     width: 21%
 }
 
+.img_col2{
+    float: left; 
+    margin: 2% 5% 2% 5%;
+    width: 21%
+}
+
 .th_slide_img {
     width:100%;
     cursor:pointer
