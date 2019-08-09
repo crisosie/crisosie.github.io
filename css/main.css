@@ -270,6 +270,10 @@ iframe{
     opacity:0.60;
 }
 
-.th_hover_opacity_off{
+.th_opacity_off{
+    opacity:1;
+}
+
+.th_opacity:hover{
     opacity:1;
 }
