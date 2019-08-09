@@ -252,6 +252,7 @@ iframe{
 
 .img_row{
     padding:0 8px;
+    display: inline;
 }
 
 .img_col{
