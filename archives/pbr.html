@@ -55,9 +55,21 @@ title: Cristian Soler Sierra
 			render's mood and colour changes drastically.
 		</p>
 		<div id="ink_images">
-			<img class="slide_img" src="../multimedia/images/ra/env_test_env2_128.png" />
-			<img class="slide_img" src="../multimedia/images/ra/env_test_env1_128.png" />
-			<img class="slide_img" src="../multimedia/images/ra/env_test_env3_128.png" />
+			<img class="slide_img2" src="../multimedia/images/ra/env_test_env2_128.png" style="width:100%;"/>
+			<img class="slide_img2" src="../multimedia/images/ra/env_test_env1_128.png" style="width:100%;display:none"/>
+			<img class="slide_img2" src="../multimedia/images/ra/env_test_env3_128.png" style="width:100%;display:none"/>
+			
+			<div class="img_row">
+					<div class="img_col">
+						<img class="th_slide_img2 th_opacity" src="../multimedia/images/ra/env_test_env2_128.png" onclick="currentDiv2(1)" />
+					</div>
+					<div class="img_col">
+						<img class="th_slide_img2 th_opacity" src="../multimedia/images/ra/env_test_env1_128.png" onclick="currentDiv2(2)"/>
+					</div>
+					<div class="img_col">
+						<img class="th_slide_img2 th_opacity" src="../multimedia/images/ra/env_test_env3_128.png" onclick="currentDiv2(3)"/>
+					</div>
+				</div>
 		</div>
 	</div>
 </div>
@@ -70,6 +82,26 @@ title: Cristian Soler Sierra
 		var i;
 		var x = document.getElementsByClassName("slide_img");
 		var dots = document.getElementsByClassName("th_slide_img");
+		if (n > x.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = x.length}
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" th_opacity_off", "");
+		}
+		x[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " th_opacity_off";
+	}
+
+	function currentDiv2(n) {
+		showDivs2(slideIndex = n);
+	}
+	
+	function showDivs2(n) {
+		var i;
+		var x = document.getElementsByClassName("slide_img2");
+		var dots = document.getElementsByClassName("th_slide_img2");
 		if (n > x.length) {slideIndex = 1}
 		if (n < 1) {slideIndex = x.length}
 		for (i = 0; i < x.length; i++) {
