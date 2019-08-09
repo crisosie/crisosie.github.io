@@ -249,3 +249,29 @@ iframe{
     color: #999;
     background-color: #50f0d8; 
 }
+
+.img_row{
+    padding:0 8px;
+}
+
+.img_col{
+    float:left;
+    width:100%
+}
+
+.th_slide_img {
+    width:100%;
+    cursor:pointer
+}
+
+.th_opacity{
+    opacity:0.60;
+}
+
+.th_opacity_off{
+    opacity:1;
+}
+
+.th_hover_opacity_off{
+    opacity:1;
+}

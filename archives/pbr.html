@@ -27,10 +27,25 @@ title: Cristian Soler Sierra
 			from the camera.
 		</p>
 		<div id="ink_images">
-			<img src="../multimedia/images/ra/dof_noDof_128.png" />
-			<img src="../multimedia/images/ra/dof_test_rightPepper_128.png" />
-			<img src="../multimedia/images/ra/dof_test_leftPepper_128.png" />
-			<img src="../multimedia/images/ra/dof_test_middlePepper_128.png" />
+			<img class="slide_img" src="../multimedia/images/ra/dof_noDof_128.png" style="width:100%;"/>
+			<img class="slide_img" src="../multimedia/images/ra/dof_test_rightPepper_128.png" style="width:100%;display:none"/>
+			<img class="slide_img" src="../multimedia/images/ra/dof_test_leftPepper_128.png" style="width:100%;display:none" />
+			<img class="slide_img" src="../multimedia/images/ra/dof_test_middlePepper_128.png"style="width:100%;display:none" />
+			
+			<div class="img_row">
+				<div class="img_col">
+					<img class="th_slide_img th_opacity th_hover_opacity_off" src="../multimedia/images/ra/dof_noDof_128.png" onclick="currentDiv(1)" />
+				</div>
+				<div class="img_col">
+					<img class="th_slide_img th_opacity th_hover_opacity_off" src="../multimedia/images/ra/dof_test_rightPepper_128.png" onclick="currentDiv(2)"/>
+				</div>
+				<div class="img_col">
+					<img class="th_slide_img th_opacity th_hover_opacity_off" src="../multimedia/images/ra/dof_test_leftPepper_128.png" onclick="currentDiv(3)"/>
+				</div>
+				<div class="img_col">
+					<img class="th_slide_img th_opacity th_hover_opacity_off" src="../multimedia/images/ra/dof_test_middlePepper_128.png" onclick="currentDiv(4)"/>
+				</div>
+			</div>
 		</div>
 
 		<h2>Environment Mapping</h2>
@@ -40,11 +55,31 @@ title: Cristian Soler Sierra
 			render's mood and colour changes drastically.
 		</p>
 		<div id="ink_images">
-			<img src="../multimedia/images/ra/env_test_env2_128.png" />
-			<img src="../multimedia/images/ra/env_test_env1_128.png" />
-			<img src="../multimedia/images/ra/env_test_env3_128.png" />
+			<img class="slide_img" src="../multimedia/images/ra/env_test_env2_128.png" />
+			<img class="slide_img" src="../multimedia/images/ra/env_test_env1_128.png" />
+			<img class="slide_img" src="../multimedia/images/ra/env_test_env3_128.png" />
 		</div>
-
-		
 	</div>
-</div><!-- /.blurb -->
+</div>
+<script>
+	function currentDiv(n) {
+		showDivs(slideIndex = n);
+	}
+	
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("slide_img");
+		var dots = document.getElementsByClassName("th_slide_img");
+		if (n > x.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = x.length}
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" th_opacity_off", "");
+		}
+		x[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " th_opacity_off";
+	}
+</script>
+<!-- /.blurb -->
