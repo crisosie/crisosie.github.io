@@ -252,13 +252,13 @@ iframe{
 
 .img_row{
     padding:0 8px;
-    display: inline;
+    display: inline-block;
 }
 
 .img_col{
-    float: right; 
-    margin: 0px 0px 15px 15px;
-    width: 25%
+    float: left; 
+    margin: 2%;
+    width: 21%
 }
 
 .th_slide_img {
@@ -268,10 +268,6 @@ iframe{
 
 .th_opacity{
     opacity:0.60;
-}
-
-.th_opacity_off{
-    opacity:1;
 }
 
 .th_hover_opacity_off{
