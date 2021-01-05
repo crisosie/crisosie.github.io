@@ -64,8 +64,17 @@ p {
     margin: 0em 0px 1em 0px;
 }
 footer {
+    text-align: center;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+}
+
+ul.footer_ul {
+    vertical-align: middle;
+}
+
+ul.footer_li {
+    display: inline-block;
 }
 
 ul.posts { 
