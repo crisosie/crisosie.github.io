@@ -69,6 +69,10 @@ footer {
     font-size: .8em;
 }
 
+footer_img {
+    width: 32px;
+}
+
 ul.footer_ul {
     vertical-align: middle;
 }
