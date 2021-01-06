@@ -71,38 +71,39 @@ footer {
 
 footer ul li a div {
     width: 32px;
+    height: 32px;
 }
 
 #footer_img1 {
-    background: url("/multimedia/icons/email.png") no-repeat;
+    background: url("../multimedia/icons/email.png") no-repeat;
 }
 
 #footer_img1:hover {
-    background: url("/multimedia/icons/email.png") no-repeat;
+    background: url("../multimedia/icons/email.png") no-repeat;
 }
 
 #footer_img2 {
-    background: url("/multimedia/icons/github-logo.png") no-repeat;
+    background: url("../multimedia/icons/github-logo.png") no-repeat;
 }
 
 #footer_img2:hover {
-    background: url("/multimedia/icons/github-logo.png") no-repeat;
+    background: url("../multimedia/icons/github-logo.png") no-repeat;
 }
 
 #footer_img3 {
-    background: url("/multimedia/icons/linkedin.png") no-repeat;
+    background: url("../multimedia/icons/linkedin.png") no-repeat;
 }
 
 #footer_img3:hover {
-    background: url("/multimedia/icons/linkedin.png") no-repeat;
+    background: url("../multimedia/icons/linkedin.png") no-repeat;
 }
 
 #footer_img4 {
-    background: url("/multimedia/icons/arroba.png") no-repeat;
+    background: url("../multimedia/icons/arroba.png") no-repeat;
 }
 
 #footer_img4:hover {
-    background: url("/multimedia/icons/arroba_hover.png") no-repeat;
+    background: url("../multimedia/icons/arroba_hover.png") no-repeat;
 }
 
 ul.footer_ul {
