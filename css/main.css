@@ -76,20 +76,20 @@ footer ul li a div {
 
 #footer_email{
     
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -64px -0px;
+    background: url("../multimedia/icons/icons_sprite.png") no-repeat -0px -0px;
 }
 
 #footer_email:hover {
     
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -0px -32px;
+    background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -0px;
 }
 
 #footer_github {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -32px;
+    background: url("../multimedia/icons/icons_sprite.png") no-repeat -0px -32px;
 }
 
 #footer_github:hover {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -64px -32px;
+    background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -32px;
 }
 
 #footer_linkedin {
@@ -101,11 +101,11 @@ footer ul li a div {
 }
 
 #footer_ref_links {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -0px -0px;
+    background: url("../multimedia/icons/icons_sprite.png") no-repeat -0px -96px;
 }
 
 #footer_ref_links:hover {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -0px;
+    background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -96px;
 }
 
 ul.footer_ul {
@@ -288,6 +288,7 @@ iframe{
     width: 32px;
     float:left;
     padding-right: 20px;
+    padding-top: 5px;
 }
 
 #cv{
