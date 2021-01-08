@@ -108,19 +108,6 @@ footer ul li a div {
     background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -0px;
 }
 
-/* .arroba { background-position: -0px -0px; width: 32px; height: 32px; }
-.arroba-hover { background-position: -32px -0px; width: 32px; height: 32px; }
-.email { background-position: -64px -0px; width: 32px; height: 32px; }
-.email-hover { background-position: -0px -32px; width: 32px; height: 32px; }
-.github-logo { background-position: -32px -32px; width: 32px; height: 32px; }
-.github-logo-hover { background-position: -64px -32px; width: 32px; height: 32px; }
-.linkedin { background-position: -0px -64px; width: 32px; height: 32px; }
-.linkedin-hover { background-position: -32px -64px; width: 32px; height: 32px; }
-.phone-call { background-position: -64px -64px; width: 32px; height: 32px; }
-.pin { background-position: -0px -96px; width: 32px; height: 32px; }
-Your HTML */
-
-
 ul.footer_ul {
     vertical-align: middle;
 }
@@ -301,11 +288,6 @@ iframe{
     width: 32px;
     float:left;
     padding-right: 20px;
-}
-
-.contact_icon img#contact_sprite{
-    top: -64px;
-    left: -0px;
 }
 
 #cv{
