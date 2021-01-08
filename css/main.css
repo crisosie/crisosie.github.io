@@ -162,7 +162,20 @@ ul.posts li {
     display: inline-block;
     width: 100%;
     height: 100%;
-  }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
   
 .index_container{
     position: relative;
