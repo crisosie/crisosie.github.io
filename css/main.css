@@ -126,11 +126,21 @@ ul.posts li {
 }
 
 .contact_title{
-    margin: 0em 0px 1em 0px;
+    margin: 0px
 }
 
 .contact_text{
     margin-top: 0px;
+}
+
+#contact_image{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#contact_img_url{
+    vertical-align: middle;
+    margin: 0em 0px 1em 0px;
 }
 
 .about{
