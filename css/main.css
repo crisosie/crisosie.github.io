@@ -184,13 +184,13 @@ ul.posts li {
     background-color: #08b79d;
     background-image: linear-gradient(45deg, #16d090, #50f0d8);
     border-radius: 0px;
-    -webkit-transition: border-radius 0.4s; /* For Safari 3.1 to 6.0 */
-     transition: border-radius 0.4s;
+    /* -webkit-transition: border-radius 0.4s; /* For Safari 3.1 to 6.0 */
+    /* transition: border-radius 0.4s; */
 }
 
 .index_container:hover .index_overlay {
     opacity: 1;
-    border-radius: 250px;
+    /* border-radius: 250px; */
 }
 
 .overlay_text {
@@ -245,14 +245,14 @@ iframe{
     display: inline-block;
     width: 400px;
     height: 400px;
-    border-radius: 0px;
+    /* border-radius: 0px;
     -webkit-transition: border-radius 0.2s; /* For Safari 3.1 to 6.0 */
-     transition: border-radius 0.2s;
+     transition: border-radius 0.2s; */
 }
 
-.index_container a:hover{
+/* .index_container a:hover{
     border-radius: 250px;
-}
+} */
 
 .th_2019{
     background: url("/multimedia/icons/thumbnails.png") -800px -400px ;
