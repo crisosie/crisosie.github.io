@@ -1,0 +1,121 @@
+---
+layout: no_pic
+title: Cristian Soler Sierra
+---
+<div class="blurb">
+	<h1>Physically Based Rendering</h1>
+	<div>
+		<p>In this project we investigate a series of algorithms and 
+			effects used to render 3D virtual images. The two effects
+			implemented are depth of field and envronment mapping.
+		</p>
+
+		<h2>Final Project - Ovni Fun!</h2>
+		<p>For our final project we implemented a basic raytracer with two
+			visual effects: depth of field and environment mapping. The scene
+			we've creates is called "Ovni Fun!" and shows a scene of a kid playing with
+			their toys and kitchenware. 
+		</p>
+		<div id="ink_images">
+			<img src="../multimedia/images/ra/ovni_fun.png" />
+		</div>
+
+		<h2>Depth of field</h2>
+		<p>Depth of field happens in lenses and is an effect that causes a light 
+			capture artifact. We can change the point of focus on the image and 
+			blur out specific points on the images depending on their distance 
+			from the camera.
+		</p>
+		<div id="ink_images">
+			<img class="slide_img" src="../multimedia/images/ra/dof_test.png" style="width:100%;"/>
+			<img class="slide_img" src="../multimedia/images/ra/dof_test_back.png" style="width:100%;display:none"/>
+			<img class="slide_img" src="../multimedia/images/ra/dof_test_blurred100.png" style="width:100%;display:none" />
+			<img class="slide_img" src="../multimedia/images/ra/dof_test_front.png"style="width:100%;display:none" />
+			<img class="slide_img" src="../multimedia/images/ra/dof_test_lens_radius.png"style="width:100%;display:none" />
+			
+			<div class="img_row">
+				<div class="img_col">
+					<img class="th_slide_img th_opacity_off" src="../multimedia/images/ra/dof_test.png" onclick="currentDiv(1)" />
+				</div>
+				<div class="img_col">
+					<img class="th_slide_img th_opacity" src="../multimedia/images/ra/dof_test_back.png" onclick="currentDiv(2)"/>
+				</div>
+				<div class="img_col">
+					<img class="th_slide_img th_opacity" src="../multimedia/images/ra/dof_test_blurred100.png" onclick="currentDiv(3)"/>
+				</div>
+				<div class="img_col">
+					<img class="th_slide_img th_opacity" src="../multimedia/images/ra/dof_test_front.png" onclick="currentDiv(4)"/>
+				</div>
+				<div class="img_col">
+						<img class="th_slide_img th_opacity" src="../multimedia/images/ra/dof_test_lens_radius.png" onclick="currentDiv(5)"/>
+					</div>
+			</div>
+		</div>
+
+		<h2>Environment Mapping</h2>
+		<p>Environment Mapping assumes that an HDI image is the source of a light 
+			place at the infinite. The image engulfs the scene and contributes
+			globally to the illumination of the scene. By changing the image source the 
+			render's mood and colour changes drastically.
+		</p>
+		<div id="ink_images">
+			<img class="slide_img2" src="../multimedia/images/ra/env_test_env2_128.png" style="width:100%;"/>
+			<img class="slide_img2" src="../multimedia/images/ra/env_test_env1_128.png" style="width:100%;display:none"/>
+			<img class="slide_img2" src="../multimedia/images/ra/env_test_env3_128.png" style="width:100%;display:none"/>
+			
+			<div class="img_row">
+					<div class="img_col2">
+						<img class="th_slide_img2 th_opacity_off" src="../multimedia/images/ra/env_test_env2_128.png" onclick="currentDiv2(1)" />
+					</div>
+					<div class="img_col2">
+						<img class="th_slide_img2 th_opacity" src="../multimedia/images/ra/env_test_env1_128.png" onclick="currentDiv2(2)"/>
+					</div>
+					<div class="img_col2">
+						<img class="th_slide_img2 th_opacity" src="../multimedia/images/ra/env_test_env3_128.png" onclick="currentDiv2(3)"/>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+<script>
+	function currentDiv(n) {
+		showDivs(slideIndex = n);
+	}
+	
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("slide_img");
+		var dots = document.getElementsByClassName("th_slide_img");
+		if (n > x.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = x.length}
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" th_opacity_off", " th_opacity");
+		}
+		x[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " th_opacity_off";
+	}
+
+	function currentDiv2(n) {
+		showDivs2(slideIndex = n);
+	}
+	
+	function showDivs2(n) {
+		var i;
+		var x = document.getElementsByClassName("slide_img2");
+		var dots = document.getElementsByClassName("th_slide_img2");
+		if (n > x.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = x.length}
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" th_opacity_off", " th_opacity");
+		}
+		x[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " th_opacity_off";
+	}
+</script>
+<!-- /.blurb -->
