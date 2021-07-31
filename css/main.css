@@ -115,36 +115,36 @@ footer ul li a div {
 
 .webp #footer_email{
     
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -0px -0px;
+    background: url("../multimedia/icons/icons_sprite.webp") no-repeat -0px -0px;
 }
 
 .webp #footer_email:hover {
     
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -0px;
+    background: url("../multimedia/icons/icons_sprite.webp") no-repeat -32px -0px;
 }
 
 .webp #footer_github {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -0px -32px;
+    background: url("../multimedia/icons/icons_sprite.webp") no-repeat -0px -32px;
 }
 
 .webp #footer_github:hover {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -32px;
+    background: url("../multimedia/icons/icons_sprite.webp") no-repeat -32px -32px;
 }
 
 .webp #footer_linkedin {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -0px -64px;
+    background: url("../multimedia/icons/icons_sprite.webp") no-repeat -0px -64px;
 }
 
 .webp #footer_linkedin:hover {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -64px;
+    background: url("../multimedia/icons/icons_sprite.webp") no-repeat -32px -64px;
 }
 
 .webp #footer_ref_links {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -0px -96px;
+    background: url("../multimedia/icons/icons_sprite.webp") no-repeat -0px -96px;
 }
 
 .webp #footer_ref_links:hover {
-    background: url("../multimedia/icons/icons_sprite.png") no-repeat -32px -96px;
+    background: url("../multimedia/icons/icons_sprite.webp") no-repeat -32px -96px;
 }
 
 ul.footer_ul {
