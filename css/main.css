@@ -250,9 +250,9 @@ iframe{
     transition: border-radius 0.2s; 
 }
 
-/* .index_container a:hover{
-    border-radius: 250px;
-} */
+/* 
+  ||||| THUMBNAILS
+*/
 
 .no-js .no-webp .th_2019{
     background: url("/multimedia/icons/thumbnails.png") -800px -400px ;
@@ -292,6 +292,46 @@ iframe{
 
 .no-js .no-webp .th_robot{
     background: url("/multimedia/icons/thumbnails.png") -400px -400px;
+}
+
+.webp .th_2019{
+    background: url("/multimedia/icons/thumbnails.webp") -800px -400px ;
+}
+
+.webp .th_2018{
+    background: url("/multimedia/icons/thumbnails.webp") 0px -800px;
+}
+
+.webp .th_2017{
+    background: url("/multimedia/icons/thumbnails.webp") 0px -400px;
+}
+
+.webp .th_pbr{
+    background: url("/multimedia/icons/thumbnails.webp") -800px 0px;
+}
+
+.webp .th_dust{
+    background: url("/multimedia/icons/thumbnails.webp") 0px -800px;
+}
+
+.webp .th_ink{
+    background: url("/multimedia/icons/thumbnails.webp") -400px 0px;
+}
+
+.webp .th_flock{
+    background: url("/multimedia/icons/thumbnails.webp") 0px -1200px;
+}
+
+.webp .th_ecorruption{
+    background: url("/multimedia/icons/thumbnails.webp") 0px 0px;
+}
+
+.webp .th_pbs{
+    background: url("/multimedia/icons/thumbnails.webp") -400px -1200px;
+}
+
+.webp .th_robot{
+    background: url("/multimedia/icons/thumbnails.webp") -400px -400px;
 }
 
 .contact_icon img{
