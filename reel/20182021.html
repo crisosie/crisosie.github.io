@@ -3,8 +3,135 @@ layout: default
 title: Cristian Soler Sierra
 ---
 <div class="blurb">
-	<h1>Demo Reel 2018-2019</h1>
+	<h1>Demo Reel 2018-2021</h1>
 	<div>
-		<p>Work in Progress. Sorry for any inconveniences! We'll update it soon.</p>
+		<p>Here are my latest personal projects. I continued exploring new ways of simulating non-photorealistic
+		   ink shaders and explored advanced photorealistic rendering algorithms. </p>
 	</div>
-</div><!-- /.blurb -->
+
+	<h2>PBR Project - Ovni Fun!</h2>
+	<p>During my Masters Degree I implemented a raytracer which I then used to render this scene which I 
+		titled "Ovni Fun!". I decided to investigate two visual effects: depth of field and environment 
+		mapping. In this scene I tried to portray the carefree feeling that a kid has when playing with their
+		toys. 
+	</p>
+
+	<div id="ink_images">
+		<picture>
+			<source srcset="../multimedia/images/ra/ovni_fun.webp" type="image/webp">
+			<source srcset="../multimedia/images/ra/ovni_fun.png" type="image/png"> 
+			<img src="../multimedia/images/ra/ovni_fun.png" alt="Render of some cow toys of different materials on a kitchen">
+		</picture>	
+	</div>
+
+	<p>The following gallery shows examples of the depth of field and environment mapping being used in different 
+		scenarios.
+	</p>
+
+	<div id="ink_images">
+		<picture>
+			<source srcset="../multimedia/images/ra/dof_test.webp" type="image/webp">
+			<source srcset="../multimedia/images/ra/dof_test.png" type="image/png"> 
+			<img class="slide_img" src="../multimedia/images/ra/dof_test.png" style="width:100%;"/>
+		</picture>	
+		
+		<picture>
+			<source srcset="../multimedia/images/ra/dof_test_back.webp" type="image/webp">
+			<source srcset="../multimedia/images/ra/dof_test_back.png" type="image/png"> 
+			<img class="slide_img" src="../multimedia/images/ra/dof_test_back.png" style="width:100%;display:none"/>
+		</picture>		
+		
+		<picture>
+			<source srcset="../multimedia/images/ra/dof_test_front.webp" type="image/webp">
+			<source srcset="../multimedia/images/ra/dof_test_front.png" type="image/png"> 
+			<img class="slide_img" src="../multimedia/images/ra/dof_test_front.png"style="width:100%;display:none" />
+		</picture>	
+
+		<picture>
+			<source srcset="../multimedia/images/ra/env_test_env2_128.webp" type="image/webp">
+			<source srcset="../multimedia/images/ra/env_test_env2_128.png" type="image/png"> 
+			<img class="slide_img" src="../multimedia/images/ra/env_test_env2_128.png" style="width:100%;display:none"/>
+		</picture>
+		
+		<picture>
+			<source srcset="../multimedia/images/ra/env_test_env1_128.webp" type="image/webp">
+			<source srcset="../multimedia/images/ra/env_test_env1_128.png" type="image/png"> 
+			<img class="slide_img" src="../multimedia/images/ra/env_test_env1_128.png" style="width:100%;display:none"/>
+		</picture>
+		
+		<picture>
+			<source srcset="../multimedia/images/ra/env_test_env3_128.webp" type="image/webp">
+			<source srcset="../multimedia/images/ra/env_test_env3_128.png" type="image/png"> 
+			<img class="slide_img" src="../multimedia/images/ra/env_test_env3_128.png" style="width:100%;display:none"/>
+		</picture>
+		
+		<div class="img_row">
+			<div class="img_col">
+				<picture>
+					<source srcset="../multimedia/images/ra/dof_test.webp" type="image/webp">
+					<source srcset="../multimedia/images/ra/dof_test.png" type="image/png"> 
+					<img class="th_slide_img th_opacity_off" src="../multimedia/images/ra/dof_test.png" onclick="currentDiv(1)" />
+				</picture>	
+			</div>
+			<div class="img_col">
+				<picture>
+					<source srcset="../multimedia/images/ra/dof_test_back.webp" type="image/webp">
+					<source srcset="../multimedia/images/ra/dof_test_back.png" type="image/png"> 
+					<img class="th_slide_img th_opacity" src="../multimedia/images/ra/dof_test_back.png" onclick="currentDiv(2)"/>
+				</picture>	
+			</div>
+			<div class="img_col">
+				<picture>
+					<source srcset="../multimedia/images/ra/dof_test_front.webp" type="image/webp">
+					<source srcset="../multimedia/images/ra/dof_test_front.png" type="image/png"> 
+					<img class="th_slide_img th_opacity" src="../multimedia/images/ra/dof_test_front.png" onclick="currentDiv(3)"/>
+				</picture>	
+			</div>
+			<div class="img_col2">
+				<picture>
+					<source srcset="../multimedia/images/ra/env_test_env2_128.webp" type="image/webp">
+					<source srcset="../multimedia/images/ra/env_test_env2_128.png" type="image/png"> 
+					<img class="th_slide_img2 th_opacity_off" src="../multimedia/images/ra/env_test_env2_128.png" onclick="currentDiv(4)" />
+				</picture>
+				
+			</div>
+			<div class="img_col2">
+				<picture>
+					<source srcset="../multimedia/images/ra/env_test_env1_128.webp" type="image/webp">
+					<source srcset="../multimedia/images/ra/env_test_env1_128.png" type="image/png"> 
+					<img class="th_slide_img2 th_opacity" src="../multimedia/images/ra/env_test_env1_128.png" onclick="currentDiv(5)"/>
+				</picture>
+			</div>
+			<div class="img_col2">
+				<picture>
+					<source srcset="../multimedia/images/ra/env_test_env3_128.webp" type="image/webp">
+					<source srcset="../multimedia/images/ra/env_test_env3_128.png" type="image/png"> 
+					<img class="th_slide_img2 th_opacity" src="../multimedia/images/ra/env_test_env3_128.png" onclick="currentDiv(6)"/>
+				</picture>
+			</div>
+		</div>
+	</div>
+
+</div>
+<script>
+	function currentDiv(n) {
+		showDivs(slideIndex = n);
+	}
+	
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("slide_img");
+		var dots = document.getElementsByClassName("th_slide_img");
+		if (n > x.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = x.length}
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" th_opacity_off", " th_opacity");
+		}
+		x[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " th_opacity_off";
+	}
+</script>
+<!-- /.blurb -->
