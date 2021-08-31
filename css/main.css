@@ -420,3 +420,12 @@ iframe{
 .th_opacity:hover{
     opacity:1;
 }
+
+.cv_p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0.5em 0px 0.5em 0px;
+}
